@@ -1,0 +1,395 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    width: 100%;
+    position: relative;
+}
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background-color:#BDC2C8;
+    position: fixed;
+    margin-left: 60px;
+    border-bottom: solid #74797B .5px;
+}
+
+.header-name-style {
+    background-color: #004A95;
+    color: #fff;
+    float: left;
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.nav-bar {
+    list-style-type: none;
+    float: right;
+    position: relative;
+    right: 200px;
+    margin-top: 30px;
+}
+
+.nav-bar-a {
+    display: inline;
+    font-family: 'Rubik', sans-serif;
+    color: #004A95;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.clearfloat {
+    clear: both;
+}
+
+.about-me-header {
+    border-bottom: solid #74797B 1.5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 7px;
+}
+
+.about-me {
+    color: #004A95;
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -10px;
+}
+
+.body-container {
+    top: 80px;
+    background-image: url('../images/vertical-waves.png');
+    position: relative;
+    width: 100%;
+    height: 950px;
+}
+
+.column1 {
+    position: relative;
+    top: 30px;
+    left: 60px;
+    background-color: #DDE6EB;
+    width: 60%;
+    height: 470px;
+    overflow: scroll;
+    float: left;
+}
+
+.profile-picture {
+    float: left;
+    margin-top: 20px;
+    margin-right: 12px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    border: solid #444748 .5px; 
+}
+
+.about-me-text {
+    line-height: 200%;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 13px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 10pt; 
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 200px;
+    float: right;
+    background-color: #DDE6EB;
+    position: relative;
+    top: 30px;
+    right: 60px;
+}
+
+.connect-with-me {
+    font-family: 'Berkshire Swash', cursive;
+    color: #004A95;
+    padding: 20px;
+    margin: auto;
+
+}
+
+.social-media-logos {
+    margin: auto;
+}
+
+.social-media-images {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+footer {
+    width: 100%;
+    background-color:#74797B;
+    position: fixed;
+    bottom: 0px;
+    border-top: solid #146795 3px;
+    margin: 0;
+}
+
+.footer-text {
+    font-family: 'Rubik', sans-serif;
+    font-size: 8px;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+label {
+    margin-left: 30px;
+}
+
+input[type=text] {
+    width: 80%;
+    margin-left: 30px;
+}
+
+textarea {
+    width: 80%;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+input[type=submit] {
+    margin-left: 30px;
+}
+
+.contact-me-header {
+    border-bottom: solid #74797B 1.5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+
+.portfolio-header {
+    border-bottom: solid #74797B 1.5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 7px;
+}
+
+.port-pic-left-col {
+    float: left;
+    position: relative;
+    left: 100px;
+    top: 20px;
+
+}
+
+.port-pic-right-col {
+    float: right;
+    position: relative;
+    left: -100px;
+    top: 20px;
+}
+
+.portfolio-photos {
+    margin: 10px;
+}
+
+.column1-portfolio {
+    position: relative;
+    top: 30px;
+    left: 60px;
+    background-color: #DDE6EB;
+    width: 60%;
+    height: 470px;
+    overflow: scroll;
+    float: left;
+}
+
+@media only screen and (max-width: 980px) {
+
+    .profile-picture {
+       display: block;
+       margin: auto;
+       margin-top: 20px;
+       float: none;
+       width: 80%;
+    }
+
+    .port-pic-left-col {
+        float: none;
+        left: 0px;
+        margin: 0;
+        margin-left: 28%;
+        margin-right: 29.59%;
+    }
+
+    .port-pic-right-col {
+        float: none;
+        left: 0px;
+        margin: 0;
+        margin-left: 28%;
+        margin-right: 29.59%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .column1 {
+        position: relative;
+        top: 30px;
+        left: 80px;
+        background-color: #DDE6EB;
+        width: 70%;
+        height: 470px;
+        overflow: scroll;
+        float: none;
+    }
+
+    .column1-portfolio {
+        position: relative;
+        top: 30px;
+        left: 80px;
+        background-color: #DDE6EB;
+        width: 70%;
+        overflow: scroll;
+        float: none;
+        margin: 0;
+    }
+
+    .profile-picture {
+        float: left;
+        margin-top: 20px;
+        margin-right: 12px;
+        margin-bottom: 0px;
+        margin-left: 20px;
+        border: solid #444748 .5px; 
+        width: 40%;
+    }
+
+    aside {
+        display: block;
+        width: 70%;
+        height: 200px;
+        float: none;
+        background-color: #DDE6EB;
+        position: relative;
+        top: 55px;
+        left: 80px;
+    }
+
+    .about-me-text {
+        line-height: 200%;
+        font-family: 'Rubik', sans-serif;
+        margin-top: 13px;
+        margin-left: 20px;
+        margin-right: 40px;
+        font-size: 10pt; 
+    }
+
+    .port-pic-left-col {
+        float: left;
+        left: 0px;
+        margin: 0;
+    }
+
+    .port-pic-right-col {
+        float: right;
+        left: 0px;
+        margin: 0;
+    }
+
+    .nav-bar {
+        list-style-type: none;
+        float: right;
+        position: relative;
+        right: 85px;
+        margin-top: 30px;
+    }
+    
+    .nav-bar-a {
+        display: inline;
+        font-family: 'Rubik', sans-serif;
+        color: #004A95;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    header {
+        width: 100%;
+        background-color:#BDC2C8;
+        position: static;
+        margin: 0;
+        border-bottom: solid #74797B .5px;
+    }
+    
+    .header-name-style {
+        background-color: #004995;
+        color: #fff;
+        float: none;
+        text-align: center;
+    }
+    
+    .nav-bar {
+        list-style-type: none;
+        float: none;
+        position: static;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 6px;
+    }
+    
+    .nav-bar-a {
+        display: inline;
+        font-family: 'Rubik', sans-serif;
+        color: #004A95;
+    }
+    
+    .body-container {
+        top: -.5px;
+        background-image: url('../images/vertical-waves.png');
+        position: relative;
+        width: 100%;
+        height: 950px;
+        }
+
+    .profile-picture {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        float: none;
+        width: 80%;
+         }
+
+    .port-pic-left-col {
+        float: none;
+        left: 0px;
+        margin: 0;
+        margin-left: 20%;
+        margin-right: 20%;
+        }
+    
+    .port-pic-right-col {
+        float: none;
+        left: 0px;
+        margin: 0;
+        margin-left: 20%;
+        margin-right: 20%;
+        }
+    }
